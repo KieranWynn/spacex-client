@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import TitleBar from './components/TitleBar'
 import './App.css';
 
 class App extends React.PureComponent {
@@ -8,9 +9,7 @@ class App extends React.PureComponent {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>
-            SpaceX Info
-          </h1>
+          <TitleBar/>
         </header>
         <body className="App-body">
           <p>Content coming soon!</p>
