@@ -8,8 +8,7 @@ class App extends React.PureComponent {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <TitleBar/>
+          <TitleBar title={"SpaceX App"} logo={logo}/>
         </header>
         <body className="App-body">
           <p>Content coming soon!</p>
